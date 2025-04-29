@@ -6,6 +6,9 @@ import ProjectCard from "./components/ProjectCard";
 import houseIcon from "./assets/house-icon.png";
 import folderIcon from "./assets/folder.png";
 import cogniplayIcon from "./assets/cogniplay.png";
+import JobCard from "./components/JobCard";
+import starteryIcon from "./assets/starterylogo.png";
+import phoneIcon from "./assets/cellphone.png";
 
 function App() {
   return (
@@ -35,6 +38,19 @@ function App() {
         link="https://github.com/JamesMan689/cogniplay"
       />
       <SectionHeader title="EXPERIENCE" />
+      <JobCard
+        company="Yestech"
+        title="Front-end Software Engineer Intern"
+        logo={phoneIcon}
+        stack="React Native"
+      />
+      <JobCard
+        company="Startery"
+        title="Full-Stack Software Developer Intern"
+        logo={starteryIcon}
+        stack="Next.js + React + Spring Boot"
+      />
+      <div className="mb-48"></div>
     </div>
   );
 }
