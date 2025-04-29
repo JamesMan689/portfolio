@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="font-primary text-xl">
-      <ul className="text-[#A1A1AA] flex gap-10 justify-end mt-30">
+      <ul className="text-zinc-400 flex gap-10 justify-end mt-30">
         <li>
           <a
             href="https://github.com/JamesMan689"

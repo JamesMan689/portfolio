@@ -30,7 +30,7 @@ const AboutMe = () => {
           <h2 className=" text-white mt-5">
             Computer Science Student at Rutgers University
           </h2>
-          <p className="text-[#D4D4D8] mt-5">
+          <p className="text-zinc-300 mt-5">
             Hi, I'm James, a Computer Science student at Rutgers University,
             graduating in May 2026. I love front-end software engineering and
             enjoy creating clean, user-friendly web experiences. Check out my
