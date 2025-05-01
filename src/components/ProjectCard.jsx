@@ -12,7 +12,7 @@ const ProjectCard = ({ image, title, description, stack, link }) => {
           />
         </div>
         <div className="flex-1">
-          <h2 className="mt-[-1em] text-2xl font-bold transition group-hover:text-yellow-400">
+          <h2 className="mt-[-1em] md:mt-0 text-2xl font-bold transition group-hover:text-yellow-400">
             {title}
           </h2>
           <p className="mt-2 mb-4 text-zinc-300">{description}</p>
