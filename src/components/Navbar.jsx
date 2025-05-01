@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="font-primary text-xl">
-      <ul className="text-zinc-400 flex gap-10 justify-end mt-30">
+    <div className="font-primary md:text-xl">
+      <ul className="text-zinc-400 flex gap-6 md:gap-10 justify-end mt-10 md:mt-30 mr-3 md:mr-0">
         <li>
           <a
             href="https://github.com/JamesMan689"
@@ -26,7 +26,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="/"
+            href="https://drive.google.com/file/d/1TQEKRskf256RPHbkwosbh1sa4htnxIA_/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors duration-300"
