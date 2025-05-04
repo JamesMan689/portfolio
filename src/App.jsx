@@ -8,7 +8,7 @@ import folderIcon from "./assets/folder.png";
 import cogniplayIcon from "./assets/cogniplay.png";
 import JobCard from "./components/JobCard";
 import starteryIcon from "./assets/starterylogo.png";
-import phoneIcon from "./assets/cellphone.png";
+import pluu5Icon from "./assets/pluu5.png";
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
       <ProjectCard
         image={cogniplayIcon}
         title="CogniPlay: A Cognitive Assessment Software "
-        description=" A project that uses engaging games that focus on reaction time, memory, and problem solving skills to track mental agility of patients while providing essential data to hospitals."
+        description="A project that uses engaging games that focus on reaction time, memory, and problem solving skills to track mental agility of patients while providing essential data to hospitals."
         stack="Python + Pygame"
         link="https://github.com/JamesMan689/cogniplay"
       />
@@ -41,7 +41,7 @@ function App() {
       <JobCard
         company="Yestech"
         title="Front-end Software Engineer Intern"
-        logo={phoneIcon}
+        logo={pluu5Icon}
         stack="React Native"
       />
       <JobCard
