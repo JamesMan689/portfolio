@@ -8,7 +8,7 @@ import folderIcon from "./assets/folder.png";
 import cogniplayIcon from "./assets/cogniplay.png";
 import JobCard from "./components/JobCard";
 import starteryIcon from "./assets/starterylogo.png";
-import pluu5Icon from "./assets/pluu5.png";
+import pluu5Icon from "./assets/Pluu5.png";
 
 function App() {
   return (
