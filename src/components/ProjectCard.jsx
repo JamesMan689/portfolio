@@ -8,7 +8,7 @@ const ProjectCard = ({ image, title, description, stack, link }) => {
           <img
             src={image}
             alt="project icon"
-            className="w-full h-full object-contain"
+            className="w-full h-full object-contain rounded-2xl"
           />
         </div>
         <div className="flex-1">

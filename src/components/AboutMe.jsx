@@ -31,10 +31,7 @@ const AboutMe = () => {
             Computer Science Student at Rutgers University
           </h2>
           <p className="text-zinc-300 mt-5">
-            Hi, I'm James, a Computer Science student at Rutgers University,
-            graduating in May 2026. I love front-end software engineering and
-            enjoy creating clean, user-friendly web experiences. Check out my
-            projects below!
+          Hi, I'm James, a Computer Science student at Rutgers University (Class of 2026) with a 3.8 GPA. I enjoy software engineering and building user-friendly applications for web and mobile. I try to help as many people as I can with my work.
           </p>
         </div>
         <div className="mt-8 ml-10 flex-shrink-0 hidden md:block">

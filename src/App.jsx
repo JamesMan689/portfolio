@@ -3,12 +3,11 @@ import AboutMe from "./components/AboutMe";
 import Navbar from "./components/Navbar";
 import SectionHeader from "./components/SectionHeader";
 import ProjectCard from "./components/ProjectCard";
-import houseIcon from "./assets/house-icon.png";
-import folderIcon from "./assets/folder.png";
-import cogniplayIcon from "./assets/cogniplay.png";
+import footworkIcon from "./assets/footworklogo.png";
+import socialmediaIcon from "./assets/socialmediaapi.png";
 import JobCard from "./components/JobCard";
 import starteryIcon from "./assets/starterylogo.png";
-import pluu5Icon from "./assets/Pluu5.png";
+import zenzieeIcon from "./assets/zenziee.png";
 
 function App() {
   return (
@@ -17,36 +16,30 @@ function App() {
       <AboutMe />
       <SectionHeader title="PROJECTS" />
       <ProjectCard
-        image={houseIcon}
-        title="Mortgage Helper"
-        description="A full-stack mortgage assistance application that integrates and analyzes real-world data from the 2017 New Jersey HMDA database to support mortgage calculations and loan application tracking."
-        stack="React + Spring Boot + PostgreSQL"
-        link="https://github.com/tushardray/cs336project"
+        image={footworkIcon}
+        title="Footwork: Train Soccer Better"
+        description="Helping 50+ players in America and Europe train soccer smarter and better."
+        stack="React Native, Expo, NativeWind, TypeScript, Java Spring Boot, PostgreSQL (AWS RDS), AWS S3, Docker, JWT Auth, Postmark, AWS Elastic Beanstalk"
+        link="https://apps.apple.com/us/app/footwork-train-soccer-better/id6751991495"
       />
       <ProjectCard
-        image={folderIcon}
-        title="Task Manager"
-        description="Helping people manage their tasks seamlessly with JWT-based authentication for secure user login and session management."
-        stack="React + Node.js + Express.js + PostgreSQL"
-        link="https://github.com/JamesMan689/taskmanager"
+        image={socialmediaIcon}
+        title="Social Media API"
+        description="Backend API simulating social media features with user authentication, posting, and secure data handling."
+        stack="Spring Boot, PostgreSQL, JWT Auth, Docker"
+        link="https://github.com/JamesMan689/socialmediabackend"
       />
-      <ProjectCard
-        image={cogniplayIcon}
-        title="CogniPlay: A Cognitive Assessment Software "
-        description="A project that uses engaging games that focus on reaction time, memory, and problem solving skills to track mental agility of patients while providing essential data to hospitals."
-        stack="Python + Pygame"
-        link="https://github.com/JamesMan689/cogniplay"
-      />
+     
       <SectionHeader title="EXPERIENCE" />
       <JobCard
-        company="Yestech"
+        company="ZenZiee"
         title="Front-end Software Engineer Intern"
-        logo={pluu5Icon}
+        logo={zenzieeIcon}
         stack="React Native"
       />
       <JobCard
         company="Startery"
-        title="Full-Stack Software Developer Intern"
+        title="Software Developer Intern"
         logo={starteryIcon}
         stack="Next.js + React + Spring Boot"
       />
