@@ -20,7 +20,7 @@ function App() {
         title="Footwork: Train Soccer Better"
         description="Helping 80+ players in America and Europe train soccer smarter and better."
         stack="React Native, Expo, NativeWind, TypeScript, Java Spring Boot, PostgreSQL (AWS RDS), AWS S3, Docker, JWT Auth, Postmark, AWS Elastic Beanstalk"
-        link="https://apps.apple.com/us/app/footwork-train-soccer-better/id6751991495"
+        link="https://www.getfootwork.app"
       />
       <ProjectCard
         image={socialmediaIcon}
