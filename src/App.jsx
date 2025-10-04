@@ -18,7 +18,7 @@ function App() {
       <ProjectCard
         image={footworkIcon}
         title="Footwork: Train Soccer Better"
-        description="Helping 80+ players in America and Europe train soccer smarter and better."
+        description="Helping 90+ players in America and Europe train soccer smarter and better."
         stack="React Native, Expo, NativeWind, TypeScript, Java Spring Boot, PostgreSQL (AWS RDS), AWS S3, Docker, JWT Auth, Postmark, AWS Elastic Beanstalk"
         link="https://www.getfootwork.app"
       />
