@@ -26,7 +26,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="https://drive.google.com/file/d/1oECDtgTiU8jZXRAONPoS0K9ppwjjP9M6/view?usp=sharing"
+            href="https://docs.google.com/document/d/1kBby6_kwcbNP07H9tqkUZ9gF6t5w9yY64oTPvH9SZ5Y/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors duration-300"
