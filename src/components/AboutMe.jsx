@@ -28,10 +28,10 @@ const AboutMe = () => {
             JAMES XU <span className="text-3xl">👋</span>
           </h1>
           <h2 className=" text-white mt-2 md:mt-5">
-            Computer Science Student at Rutgers University
+            Computer Science Student (Entrepreneurship Minor) at Rutgers University
           </h2>
           <p className="text-zinc-300 mt-5">
-          Hi, I'm James, a Computer Science student at Rutgers University (Class of 2026) with a 3.8 GPA. I enjoy software engineering and building user-friendly applications for web and mobile. I try to help as many people as I can with my work.
+          Hi, I'm James, a Computer Science student at Rutgers University (Class of 2026) with a 3.8 GPA. I'm passionate about combining technology with business and entrepreneurship to create innovative solutions that make a real impact. I try to help as many people as I can with my work.
           </p>
         </div>
         <div className="mt-8 ml-10 flex-shrink-0 hidden md:block">
